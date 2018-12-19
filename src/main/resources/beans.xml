@@ -8,8 +8,16 @@
         <property name="name" value="Shreejit"></property>
     </bean>
 
-    <bean id="aspect" class="personal.SpringAspect"/>
+    <!--<bean id="supplier2" class="personal.Supplier">-->
+        <!--<property name="name" value="Gaurika"></property>-->
+    <!--</bean>-->
 
-    <aop:aspectj-autoproxy/>
+    <bean id="supplier2" class="personal.Supplier2">
+        <property name="name" value="Gaurika"></property>
+    </bean>
+
+    <!--<bean id="aspect" class="personal.SpringAspect"/>-->
+
+    <!--<aop:aspectj-autoproxy/>-->
 
 </beans>
